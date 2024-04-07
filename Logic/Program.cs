@@ -209,6 +209,9 @@ Console.WriteLine(Child.AnotherStaticVariable); // Output: 20
 Child.AnotherStaticMethod(); // Output: Another static method in Child
 
 #endregion
+
+string a = ReverseString.ReverseStringMethod("Amol");
+Console.WriteLine("{0}", a);
 Console.ReadLine();
 
 
